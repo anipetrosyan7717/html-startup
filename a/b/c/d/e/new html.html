@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images,pictures and figures</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <header>
+         <h1>Images,pictures and figures</h1>
+     </header>
+     <main>
+         <p><img src="../../../../../assets/images/baby.jpg" alt="deadpool"/></p>
+         <p>
+             <figure>
+                 <img src="http://sun9-6.userapi.com/c858328/v858328919/f7f35/9_HS7eNLOMk.jpg?ava=1"/>
+                 <figcaption>Bob belcher and sterling archer</figcaption>
+             </figure>
+         </p>
+         <p>
+             <picture>
+                 <source srcset="./../../../../assets/images/baby.jpg." madia="(min-width:800px)"/>
+                 <source srcset="../../../../../assets/images/baby.jpg" madia="(min-width:600px)"/>
+                 <img src="./../../../../assets/images/baby.jpg." alt="fallback"/>
+             </picture>
+         </p>
+     </main>
+
+</body>
+</html>
